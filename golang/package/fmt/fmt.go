@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 var (
@@ -21,6 +22,8 @@ func main() {
 		age:1,
 	}
 	fmt.Println(name, human)
+
+	_, _ = os.Stdout.Write([]byte{'h', '我', 123})
 	//fmt.Printf("human: %v\n", human)
 	//fmt.Printf("human: %+v\n", human)
 	//
