@@ -1,35 +1,20 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
-var (
-	name string
-)
 
-type Human struct {
-	name string
-	age  int
+type User struct {
+	Name string
+	Age int
 }
 
 func main() {
-	name = "caodi"
-
-	human := Human{
-		name:"caodi",
-		age:1,
+	a := User{
+		Name: "caodi",
+		Age:123,
 	}
-	fmt.Println(name, human)
 
-	_, _ = os.Stdout.Write([]byte{'h', '我', 123})
-	//fmt.Printf("human: %v\n", human)
-	//fmt.Printf("human: %+v\n", human)
-	//
-	//fmt.Printf("human: %#v\n", human)
-	//fmt.Printf("human: %T\n", human)
-	//
-	//fmt.Printf("文字百分号: %%\n")
-	//fmt.Println(human)
+	fmt.Printf("%v\n", a)
+	fmt.Printf("%+v", a)
+	return
 }
