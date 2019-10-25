@@ -15,6 +15,6 @@ func main() {
 	}
 
 	fmt.Printf("%v\n", a)
-	fmt.Printf("%+v", a)
+	fmt.Printf("%+v\n", a)
 	return
 }
