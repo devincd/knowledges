@@ -1,4 +1,4 @@
-##fmt包的学习
+## fmt包的学习
 
 ### 概述
 fmt包使用与C语言的printf和scanf类似的功能实现格式化的I/O。格式"占位符(verbs)"派生自C语言，但是更加的简单
@@ -22,7 +22,8 @@ var site = Website{Name:"studygolang"}
 - %T    用Go语言来表示该值的类型
 - %%    就是字面意思上的百分号，不能代表任何其他意思
 ```
-Printf("%v", site)，Printf("%+v", site)  // {studygolang}，{Name:studygolang}
+Printf("%v", site)  // {studygolang}
+Printf("%+v", site)  // {Name:studygolang}
 Printf("#v", site)  // main.Website{Name:"studygolang"}
 Printf("%T", site)  // main.Website
 Printf("%%")  // %
