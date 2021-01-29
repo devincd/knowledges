@@ -1,2 +1,4 @@
 github.com/devincd/dnspressure v0.0.0-20201215024942-24ac60a96ef8 h1:EALjC3ib7L2LfgzOnQT8+FJCk2img8kuY8qUax94iIw=
 github.com/devincd/dnspressure v0.0.0-20201215024942-24ac60a96ef8/go.mod h1:cM0yNGWC/JSYa8RylbZA6rU9zAtvBonkRJIK67HMdm8=
+github.com/robfig/cron/v3 v3.0.0 h1:kQ6Cb7aHOHTSzNVNEhmp8EcWKLb4CbiMW9h9VyIhO4E=
+github.com/robfig/cron/v3 v3.0.0/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=
