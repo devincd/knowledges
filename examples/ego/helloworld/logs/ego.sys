@@ -114,3 +114,12 @@ github.com/gotomicro/ego/core/util/xcycle.(*Cycle).Run.func1
 2021-02-23 11:36:13	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
 2021-02-23 14:59:52	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
 2021-02-23 14:59:53	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
+2021-02-24 10:42:24	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-24 10:42:24	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-24 10:42:24	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-24 10:42:24	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-24 10:42:24	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-24 10:42:24	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-24 10:42:24	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-24 10:42:26	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-24 10:42:27	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
