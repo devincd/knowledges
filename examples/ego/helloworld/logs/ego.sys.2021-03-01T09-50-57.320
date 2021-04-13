@@ -1,0 +1,125 @@
+2021-02-23 10:44:59	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 10:44:59	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 10:44:59	[33mWARN[0m	no config...                    	{"comp": "core.econf", "addr": "config/local.toml", "error": "default config not exit"}
+2021-02-23 10:44:59	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 10:44:59	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 10:44:59	[31mPANIC[0m	parse config error              	{"comp": "server.egin", "error": "server.http: invalid key, maybe not exist in config", "errorVerbose": "invalid key, maybe not exist in config\ngithub.com/gotomicro/ego/core/econf.init\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:340\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5652\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:191\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374\nserver.http\ngithub.com/gotomicro/ego/core/econf.(*Configuration).UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:366\ngithub.com/gotomicro/ego/core/econf.UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:336\ngithub.com/gotomicro/ego/server/egin.Load\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:28\nmain.main.func1\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13\nmain.main\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:204\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374", "key": "server.http"}
+github.com/gotomicro/ego/core/elog.(*Component).Panic
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/elog/component.go:382
+github.com/gotomicro/ego/server/egin.Load
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:29
+main.main.func1
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13
+main.main
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19
+runtime.main
+	/usr/local/go/src/runtime/proc.go:204
+2021-02-23 10:45:46	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 10:45:46	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 10:45:46	[33mWARN[0m	no config...                    	{"comp": "core.econf", "addr": "config/local.toml", "error": "default config not exit"}
+2021-02-23 10:45:46	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 10:45:46	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 10:45:46	[31mPANIC[0m	parse config error              	{"comp": "server.egin", "error": "server.http: invalid key, maybe not exist in config", "errorVerbose": "invalid key, maybe not exist in config\ngithub.com/gotomicro/ego/core/econf.init\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:340\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5652\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:191\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374\nserver.http\ngithub.com/gotomicro/ego/core/econf.(*Configuration).UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:366\ngithub.com/gotomicro/ego/core/econf.UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:336\ngithub.com/gotomicro/ego/server/egin.Load\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:28\nmain.main.func1\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13\nmain.main\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:204\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374", "key": "server.http"}
+github.com/gotomicro/ego/core/elog.(*Component).Panic
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/elog/component.go:382
+github.com/gotomicro/ego/server/egin.Load
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:29
+main.main.func1
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13
+main.main
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19
+runtime.main
+	/usr/local/go/src/runtime/proc.go:204
+2021-02-23 10:48:05	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 10:48:05	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 10:48:05	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 10:48:05	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 10:48:05	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 10:48:05	[31mPANIC[0m	parse config error              	{"comp": "server.egin", "error": "server.http: invalid key, maybe not exist in config", "errorVerbose": "invalid key, maybe not exist in config\ngithub.com/gotomicro/ego/core/econf.init\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:340\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5652\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:191\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374\nserver.http\ngithub.com/gotomicro/ego/core/econf.(*Configuration).UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:366\ngithub.com/gotomicro/ego/core/econf.UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:336\ngithub.com/gotomicro/ego/server/egin.Load\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:28\nmain.main.func1\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13\nmain.main\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:204\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374", "key": "server.http"}
+github.com/gotomicro/ego/core/elog.(*Component).Panic
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/elog/component.go:382
+github.com/gotomicro/ego/server/egin.Load
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:29
+main.main.func1
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13
+main.main
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19
+runtime.main
+	/usr/local/go/src/runtime/proc.go:204
+2021-02-23 10:52:24	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 10:52:24	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 10:52:24	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 10:52:24	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 10:52:24	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 10:52:24	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 10:52:24	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-23 10:52:31	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 10:52:31	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
+2021-02-23 10:52:44	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 10:52:44	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 10:52:44	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 10:52:44	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 10:52:44	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 10:52:44	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 10:52:44	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-23 10:53:15	[32mINFO[0m	access                          	{"comp": "server.egin", "compName": "server.http", "cost": 0.164, "type": "GET", "method": "/hello", "ip": "127.0.0.1", "size": 11, "peerIp": "127.0.0.1", "event": "normal", "err": "", "code": 200}
+2021-02-23 10:57:10	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 10:57:10	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
+2021-02-23 11:31:24	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 11:31:24	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 11:31:24	[33mWARN[0m	no config...                    	{"comp": "core.econf", "addr": "config/local.toml", "error": "default config not exit"}
+2021-02-23 11:31:24	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 11:31:24	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 11:31:24	[31mPANIC[0m	parse config error              	{"comp": "server.egin", "error": "server.http: invalid key, maybe not exist in config", "errorVerbose": "invalid key, maybe not exist in config\ngithub.com/gotomicro/ego/core/econf.init\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:340\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5652\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.doInit\n\t/usr/local/go/src/runtime/proc.go:5647\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:191\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374\nserver.http\ngithub.com/gotomicro/ego/core/econf.(*Configuration).UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:366\ngithub.com/gotomicro/ego/core/econf.UnmarshalKey\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/econf/conf.go:336\ngithub.com/gotomicro/ego/server/egin.Load\n\t/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:28\nmain.main.func1\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13\nmain.main\n\t/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:204\nruntime.goexit\n\t/usr/local/go/src/runtime/asm_amd64.s:1374", "key": "server.http"}
+github.com/gotomicro/ego/core/elog.(*Component).Panic
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/elog/component.go:382
+github.com/gotomicro/ego/server/egin.Load
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/container.go:29
+main.main.func1
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:13
+main.main
+	/Users/devin/work/golang/workspace/github.com/devincd/hardworking/examples/ego/helloworld/main.go:19
+runtime.main
+	/usr/local/go/src/runtime/proc.go:204
+2021-02-23 11:31:35	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 11:31:35	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 11:31:35	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 11:31:35	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 11:31:35	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 11:31:35	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 11:31:35	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-23 11:35:00	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 11:35:01	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
+2021-02-23 11:35:11	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 11:35:11	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 11:35:11	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 11:35:11	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 11:35:11	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 11:35:11	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 11:35:11	[31mPANIC[0m	new egin server err             	{"comp": "server.egin", "compName": "server.http", "errKind": "listen err", "error": "listen tcp 0.0.0.0:9001: bind: address already in use"}
+github.com/gotomicro/ego/core/elog.(*Component).Panic
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/elog/component.go:382
+github.com/gotomicro/ego/server/egin.(*Component).Init
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/server/egin/component.go:55
+github.com/gotomicro/ego.(*ego).startServers.func1
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/ego_function.go:48
+github.com/gotomicro/ego/core/util/xcycle.(*Cycle).Run.func1
+	/Users/devin/work/golang/lib/pkg/mod/github.com/gotomicro/ego@v0.3.8/core/util/xcycle/lifecycle.go:40
+2021-02-23 11:36:13	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-23 11:36:13	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-23 11:36:13	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-23 11:36:13	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-23 11:36:13	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-23 11:36:13	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 11:36:13	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-23 14:59:52	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-23 14:59:53	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
+2021-02-24 10:42:24	[32mINFO[0m	init default logger             	{"comp": "core.elog"}
+2021-02-24 10:42:24	[32mINFO[0m	init ego logger                 	{"comp": "core.elog"}
+2021-02-24 10:42:24	[32mINFO[0m	init config                     	{"comp": "core.econf", "addr": "config.toml"}
+2021-02-24 10:42:24	[32mINFO[0m	init max procs                  	{"comp": "app", "value": 8}
+2021-02-24 10:42:24	[33mWARN[0m	not init trace                  	{"value": "need trace config: [trace.jaeger] in config", "comp": "app"}
+2021-02-24 10:42:24	[32mINFO[0m	start server                    	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-24 10:42:24	[32mINFO[0m	add route                       	{"comp": "server.egin", "compName": "server.http", "method": "GET", "path": "/hello"}
+2021-02-24 10:42:26	[32mINFO[0m	stop server                     	{"comp": "server.egin", "compName": "server.http", "addr": "http://[::]:9001"}
+2021-02-24 10:42:27	[32mINFO[0m	stop ego, bye!                  	{"comp": "app"}
