@@ -23,6 +23,7 @@ func main() {
 }
 
 /*
+OUTPUT
 $ go run values.go
 golang
 1+1= 2
