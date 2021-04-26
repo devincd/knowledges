@@ -1,6 +1,6 @@
 /*
 In Go, variables are explicitly declared and used by the
-compiler to eg. check type-correctness of function calls.
+compiler to e.g. check type-correctness of function calls.
 
 */
 package main
