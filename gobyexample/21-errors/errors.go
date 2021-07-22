@@ -1,5 +1,5 @@
 /*
-In Gi it's idiomatic to communicate errors via explicit,
+In Go it's idiomatic to communicate errors via explicit,
 separate return value. This contrasts with the exceptions
 used in languages like Java and Ruby and the overloaded
 single result/error value sometimes used in C. Go's
