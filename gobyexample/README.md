@@ -7,3 +7,5 @@ packages, and modules.
 Go by Example is hands-on introduction to Go using
 annotated example programs. Check out the first example
 or browse the full list below
+
+https://gobyexample.com
