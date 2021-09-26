@@ -4,3 +4,5 @@
 
 ## 参考文献
 - https://studygolang.com/articles/15349
+- https://medium.com/trendyol-tech/race-conditions-in-golang-511314c0b85
+- https://golang.org/doc/articles/race_detector
