@@ -22,18 +22,18 @@ func main() {
 
 func process2() {
 	for {
-		time.Sleep(1 * time.Second)
 		fmt.Println(time.Now(), ":", runtime.NumGoroutine())
+		time.Sleep(1 * time.Second)
 	}
 }
 
 func process() string {
 	targets := []string{"one", "two", "three", "four"}
 	// channel 的大小应该为 targets 的长度，太小的话会出现协程泄漏的问题（协程阻塞地往 channel send 数据）
-	resultChan := make(chan string, 4)
+	resultChan := make(chan string, len(targets))
 	for _, target := range targets {
 		go func(targetStr string) {
-			time.Sleep(2 * time.Second)
+			time.Sleep(5 * time.Second)
 			// do something
 			resultChan <- targetStr
 		}(target)
