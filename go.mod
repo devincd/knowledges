@@ -1,5 +1,3 @@
-module github.com/devincd/hardworking
+module github.com/devincd/learn-golang
 
-go 1.15
-
-require github.com/robfig/cron/v3 v3.0.1
+go 1.17
