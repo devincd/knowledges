@@ -1,0 +1,5 @@
+contentdir: content
+layoutdir: layouts
+taxonomies:
+    category: categories
+    tag: tags
