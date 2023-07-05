@@ -1,3 +1,3 @@
-module github.com/devincd/learn-golang
+module devincd.io/knowledages
 
-go 1.19
+go 1.21
